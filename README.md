@@ -37,6 +37,6 @@ Secondary - put the webpage directory in **...\xampp\htdocs** then in url insert
 
 Can be accessed depending on launch method
 
-Primary - in url after port just type in /database.php
+Primary - in url after port just type in **/database.php**, example **localhost:86/database.php
 
-Secondary - in url localhost/task/database.php
+Secondary - in url **localhost/task/database.php
