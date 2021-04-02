@@ -4,10 +4,12 @@ Steps to make this web page work.
 ## XAMPP
 This task utilizes [XAMPP 8.0.3](https://www.apachefriends.org/index.html) to launch local server and database.
 
-### Setup
+### Database Setup
 
 First in phpMyAdmin we create new databse **test**. Inside we make new table **registration** with 3 columns, id, emails, date
 |id|emails|date|
+|--|-----|----|
+|1|test@example.lv|2021-03-24 12:23:43|
 
 ```
 structure is as follows
