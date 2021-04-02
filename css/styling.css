@@ -1,0 +1,485 @@
+/*Body*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+
+.picture {
+    width: 1240px;
+    height: 1080px;
+    top: 0px;
+    float: right;
+}
+
+section {
+    width: 680px;
+    height: 100%;
+}
+
+/*Header*/
+header {
+    position: relative;
+    height: 40px;
+    left: 99.5px;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 118px;
+    height: 41px;
+    display: flex;
+}
+
+header .logoText {
+    padding: 17px 14px;
+    font-size: 17.5px;
+    text-decoration: none;
+    color: #131821;
+}
+
+header ul {
+    padding-right: 186px;
+    display: flex;    
+    padding-bottom: 1px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    padding-top: 16px;
+    margin: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #6A707B;
+}
+
+header ul li a:hover {
+    color: #4066A5;
+}
+
+header ul li a:active {
+    color: #233759;
+}
+
+/*Content*/
+
+.textBox {
+    position: relative;
+    left: 70px;
+    top: 159px;
+    overflow: hidden;
+    width: fit-content;
+}
+/*Form*/
+h1 {    
+    margin-top: 178px;
+    margin-left: 70px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #131821;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 70px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 28.5px;
+    color: #6A707B;
+    max-width: 380px;
+}
+
+.subscribe {
+    width: max-content;
+}
+
+.email {
+    padding-left: 40px;
+    font-size: 16px;
+    position: relative;
+    padding-top: 1px;
+    margin-top: 49px;
+    margin-left: 30px;
+    width: 663px;
+    height: 70px;
+    border-width: 1px 1px 1px 4px;
+    border-color: #E3E3E4 #E3E3E4 #E3E3E4 #4066A5;
+    opacity: 1;
+}
+
+.email:focus {
+    -webkit-box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06);
+    box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06);
+    border-color: #E3E3E4 #E3E3E4 #E3E3E4 #4066A5;
+    outline: 0;
+}
+
+.email:focus button {
+    color: #4066A5;
+    opacity: 1;
+}
+
+.email:hover {
+    -webkit-box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06);
+    box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06);
+    border-color: #E3E3E4 #E3E3E4 #E3E3E4 #4066A5;
+    
+    outline: 0;
+}
+
+.email:hover+button {
+    color: #4066A5;
+    opacity: 1;
+}
+
+.email:hover {
+    border-color: #4066A5;
+    box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06)
+}
+
+
+button {
+    position: relative;
+    background: #fff;
+    top: 4.6px;
+    right: 82px;
+    border: none;
+    border-radius: 100%;
+    box-sizing: content-box;
+    color: #131821;
+    padding: 14px;
+    text-decoration: none;
+    opacity: 0.3;
+    outline: 0;
+}
+
+button:hover {
+    color: #4066A5;
+    opacity: 1;
+}
+
+button:active {
+    outline: 0;
+}
+
+.checkBox {
+    position: relative;
+    margin-top: 54px;
+    margin-left: 70px;
+    width: 26px;
+    height: 26px;
+}
+
+label {
+    position: relative;
+    bottom: 7px;
+    padding-left: 10.5px;
+    color: #6A707B;
+    text-underline-offset: 1px;
+
+}
+
+label a {
+    color: #131821;
+}
+
+label a:hover {
+    color: #4066A5;
+}
+
+label a:active {
+    color: #233759;
+}
+
+/*Border and social*/
+
+.border {
+    width: 400px;
+    height: 1px;
+    margin-top: 47px;
+    margin-left: 70px;
+    background: #E3E3E4;
+}
+
+.icons {
+    margin-left: 140px;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+.icons a {
+    margin: 0 6px;
+    border-radius: 100%;
+    box-sizing: content-box;
+    color: #131821;
+    padding: 14px;
+    border: 2px solid #131821;
+    text-decoration: none;
+    opacity: 0.3;
+}
+
+.icons a:nth-child(1):hover {
+    background: #4267B2;
+    color: #FFFFFF;
+    opacity: 1;
+    border: 2px solid #4267B2;
+    box-shadow: 0 20px 40px 0 rgba(19, 24, 33, 0.3)
+}
+
+.icons a:nth-child(1):active {
+    background: #2F4A80;
+    border: 2px solid #2F4A80;
+}
+
+.icons a:nth-child(2):hover {
+    background: #C13584;
+    color: #FFFFFF;
+    opacity: 1;
+    border: 2px solid #C13584;
+    box-shadow: 0 20px 40px 0 rgba(19, 24, 33, 0.3)
+}
+
+.icons a:nth-child(2):active {
+    background: #8F2762;
+    border: 2px solid #8F2762;
+}
+
+.icons a:nth-child(3):hover {
+    background: #1DA1F2;
+    color: #FFFFFF;
+    opacity: 1;
+    border: 2px solid #1DA1F2;
+    box-shadow: 0 20px 40px 0 rgba(19, 24, 33, 0.3)
+}
+
+.icons a:nth-child(3):active {
+    background: #177FBF;
+    border: 2px solid #177FBF;
+}
+
+.icons a:nth-child(4):hover {
+    background: #FF0000;
+    color: #FFFFFF;
+    opacity: 1;
+    border: 2px solid #FF0000;
+    box-shadow: 0 20px 40px 0 rgba(19, 24, 33, 0.3)
+}
+
+.icons a:nth-child(4):active {
+    background: #CC0000;
+    border: 2px solid #CC0000;
+}
+
+.error {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 5px;
+    color: red;
+}
+
+/*Congratulations and hidden*/
+
+.hidden {
+    display: none;
+}
+
+.congrats img {
+    position: relative;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.congrats h2 {
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 29px;
+    font-size: 32px;
+    font-family: georgia;
+    font-weight: 500;
+}
+
+
+.congrats p {
+    padding-top: 71px;
+    margin-bottom: 49px;
+}
+
+/*Responcive*/
+
+@media (max-width: 600px) {
+
+    body {
+        position: relative;
+        width: 375px;
+        height: 812px;
+        background: #FFFFFF;
+    }
+
+    .picture {
+        overflow: hidden;
+        width: 375px;
+        height: 746px;
+        left: 0px;
+        top: 66px;
+
+    }
+
+    .picture img {
+        width: 1119px;
+        height: 746px;
+    }
+
+    section {
+        width: 375px;
+        height: 812px;
+    }
+
+    header {
+        position: absolute;
+        width: 375px;
+        height: 66px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+    }
+
+    .logo {
+        position: absolute;
+        width: 25px;
+        height: 40px;
+        left: 20px;
+        top: 10px;
+
+    }
+
+    header .logoText {
+        display: none;
+    }
+
+    header ul {
+        padding-left: 139px;
+        padding-top: 1px;
+    }
+
+    header ul li {
+        list-style: none;
+    }
+
+    header ul li a {
+        padding-top: 1px;
+        width: max-content;
+        font-size: 14px;
+        text-decoration: none;
+        margin: 0 10.2px;
+    }
+
+    .textBox {
+        position: absolute;
+        width: 335px;
+        height: 371px;
+        left: 20px;
+        top: 254px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+    }
+
+    h1 {
+        margin-top: 32.3px;
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-left: 20px;
+        max-width: 300px;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    .email {
+        padding-left: 15px;
+         font-size: 16px;
+         margin-top: 20px;
+         margin-left: 20px;
+         width: 295px;
+         height: 60px;
+         padding-bottom: 0.5px;
+    }
+
+    button {
+        right: 57px;
+    }
+
+    .checkBox {
+        margin-top: 21px;
+        margin-left: 20px;
+    }
+
+    label {
+        bottom: 7.5px;
+    }
+
+    .border {
+        width: 295px;
+        margin: 0;
+        margin-top: 17px;
+        margin-left: 20px;
+    }
+
+    .icons {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .icons a {
+        margin: 0 1px;
+    }
+
+    .error {
+        position: absolute;
+        margin-left: 19px;
+        margin-top: 0px;
+        color: red;
+        font-size: 12px;
+    }
+
+    .congrats img {
+        position: relative;
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    .congrats h2 {
+        position: absolute;
+        padding-left: 20px;
+        padding-top: 38px;
+        font-size: 24px;
+        font-family: georgia;
+        font-weight: 500;
+    }
+
+
+    .congrats p {
+        padding-top: 65px;
+        margin-bottom: 39px;
+    }
+
+}
