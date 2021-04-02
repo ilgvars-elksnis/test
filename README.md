@@ -14,9 +14,9 @@ First in phpMyAdmin we create new databse **test**. Inside we make new table **r
 ```
 structure is as follows
 
-id - auto increment should set **Type** as int 
-emails - **Type** varchar(50)
-date - **Type** datetime
+id - auto increment should set Type as int 
+emails - Type varchar(50)
+date - Type datetime
 ```
 
 ### Launch
@@ -31,7 +31,7 @@ Use command
 php -S localhost:8000 (any other free port should work too)
 ```
 
-Secondary - put the webpage directory in ...\xampp\htdocs then in url insert localhost/(directories name which contains files, by default should be task)/
+Secondary - put the webpage directory in **...\xampp\htdocs** then in url insert **localhost/(directories name which contains files, by default should be task)/**
 
 ### Database
 
