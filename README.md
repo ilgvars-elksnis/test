@@ -31,7 +31,7 @@ Use command
 php -S localhost:8000 (any other free port should work too)
 ```
 
-Secondary - put the webpage directory in **...\xampp\htdocs** then in url insert **localhost/(directories name which contains files, by default should be task)/**
+Secondary - put the webpage directory in **...\xampp\htdocs** then in url insert **localhost/(directories name which contains files, by default should be test)/**
 
 ### Database
 
@@ -39,4 +39,4 @@ Can be accessed depending on launch method
 
 Primary - in url after port just type in **/database.php**, example **localhost:86/database.php**
 
-Secondary - in url **localhost/task/database.php**
+Secondary - in url **localhost/test/database.php**
